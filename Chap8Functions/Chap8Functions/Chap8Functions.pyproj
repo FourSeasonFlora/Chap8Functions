@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b7ba29c3-03ea-4123-bc8c-8e014dadaf12</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Chap8Functions.py</StartupFile>
+    <StartupFile>Chap8Cont.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Chap8Functions.py" />
+    <Compile Include="Chap8Cont.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
