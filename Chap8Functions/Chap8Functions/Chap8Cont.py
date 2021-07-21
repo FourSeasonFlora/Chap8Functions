@@ -27,16 +27,20 @@ print (info)
 formatted = ''
 Ttype = ''
 tree = ''
+
 prompt = 'This will record the tree type and climate. '
 prompt += 'Enter "quit" to exit.'
+
 def trees (type, climate):
     """Records tree type, climate found."""
     formatted = f"{type} {climate}"
     return formatted.title()
+
 while Ttype != 'quit':
     print (prompt)
     Ttype = input ('Please enter tree type: ')
     Tclimate = input ('Please enter climate of region: ')
+    
     tree = trees (Ttype, Tclimate)
     print (f"{tree}\n")
     Ttype = input ('Would you like to run program again?')

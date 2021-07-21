@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b7ba29c3-03ea-4123-bc8c-8e014dadaf12</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Chap8Cont.py</StartupFile>
+    <StartupFile>Functions_w_lists.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,9 @@
   <ItemGroup>
     <Compile Include="Chap8Functions.py" />
     <Compile Include="Chap8Cont.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Functions_w_lists.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
