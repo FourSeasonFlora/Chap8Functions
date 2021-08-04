@@ -26,5 +26,5 @@ plant_care ('low', 'humid')
 def growing_conditions (light, temperature):
     """Plant growing recommendations"""
     print (f'\nThis plant needs {light}light.')
-    print (f'\nThis plant needs {temperature}temperature.')
+    print (f'\nThis plant needs {temperature} temperature.')
 growing_conditions (light= 'low', temperature= 'humid')
